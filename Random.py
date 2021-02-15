@@ -63,7 +63,7 @@ class Random:
         while R <= 0.:
             R = self.rand()
 
-        X = -log(R)/beta
+        X = -np.log(R)/beta
 
         return X
 
